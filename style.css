@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-size: 22px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(123, 190, 21);
+    text-shadow: 0 0 10px rgb(123, 190, 21);
+}
+
+span {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {opacity: 0;}
+}
