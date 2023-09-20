@@ -9,11 +9,12 @@ body {
     font-size: 22px;
     padding: 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: black;
     color: rgb(123, 190, 21);
     text-shadow: 0 0 10px rgb(123, 190, 21);
+    height: 100vh;
+    margin: 10%;
 }
 
 span {
